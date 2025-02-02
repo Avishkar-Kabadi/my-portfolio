@@ -11,7 +11,7 @@ export default function Contact() {
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
-      value: "8999291007",
+      value: "8999201007",
       href: "tel:+918999291007",
     },
     {

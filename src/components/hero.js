@@ -64,7 +64,7 @@ export default function Hero() {
             <div className="profile-background absolute inset-0 bg-yellow-400 rounded-full animate-rotate"></div>
             <div className="profile-image-wrapper relative w-full h-full rounded-full overflow-hidden border-4 border-white">
               <img
-                src="/Avtar.jpeg"
+                src="/images/Avtar.jpeg"
                 alt="Profile"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
