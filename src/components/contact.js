@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react"
+import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react"
 
 export default function Contact() {
   const contactInfo = [
@@ -12,7 +12,7 @@ export default function Contact() {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
       value: "8999201007",
-      href: "tel:+918999291007",
+      href: "tel:+918999201007",
     },
     {
       icon: <MapPin className="w-6 h-6" />,
