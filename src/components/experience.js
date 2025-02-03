@@ -4,7 +4,7 @@ import { Briefcase } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      title: "Full Stack Developer Intern",
+      title: "Full Stack Software Engineer",
       company: "The Data Tech Labs",
       duration: "Oct 2024 - Present",
       description: "Currently working on a Quality App for Suhana using Power Platform, Power Apps, Power Automate, and SharePoint Lists. The app empowers Super-Admins to manage users, Admins to define inspection parameters, Supervisors to monitor alerts, and Inspectors to perform inspections and submit records. It integrates dynamic forms, real-time alerts, and automation to ensure consistent quality control throughout the inspection process.",
