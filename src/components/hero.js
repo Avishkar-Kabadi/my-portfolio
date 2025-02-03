@@ -52,7 +52,7 @@ export default function Hero() {
               <Mail className="w-6 h-6 text-white" />
             </a>
             <a
-              href="#"
+              href="https://x.com/___avish_kar?t=WLirANxwuLDZxk4SpmEQdA&s=09"
               className="bg-black rounded-full p-3 hover:bg-blue-600 transition-colors hover:scale-110 transform duration-200"
             >
               <Twitter className="w-6 h-6 text-white" />
