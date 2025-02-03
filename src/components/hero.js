@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, Twitter } from "lucide-react"
 import "./hero.css"
+import img from "../images/Avtar.jpeg"
 
 export default function Hero() {
   return (
@@ -19,12 +20,12 @@ export default function Hero() {
           </p>
           <button
             onClick={() => {
-              const aboutSection = document.getElementById("about")
+              const aboutSection = document.getElementById("contact")
               aboutSection?.scrollIntoView({ behavior: "smooth" })
             }}
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-lg animate-bounce-in"
           >
-            About Me
+            Hire Me
           </button>
 
           <div className="flex space-x-4 mt-8 animate-fade-in-up">
@@ -64,7 +65,7 @@ export default function Hero() {
             <div className="profile-background absolute inset-0 bg-yellow-400 rounded-full animate-rotate"></div>
             <div className="profile-image-wrapper relative w-full h-full rounded-full overflow-hidden border-4 border-white">
               <img
-                src="/images/Avtar.jpeg"
+                src={img}
                 alt="Profile"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
