@@ -16,7 +16,7 @@ export default function Hero() {
             I'm <span className="text-orange-500">Avishkar Kabadi</span>
           </h1>
           <p className="text-2xl md:text-3xl mb-8 text-gray-700 animate-slide-up">
-            I Am Into <span className="text-red-700">Full Stack Development</span>
+            I Am Into <span className="text-red-700">Software Development</span>
           </p>
           <button
             onClick={() => {

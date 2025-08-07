@@ -5,7 +5,7 @@ export default function Contact() {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "avishkarkabadi3444@gmail.com",
+      value: "avishkarkabadi28@gmail.com",
       href: "mailto:avishkarkabadi3444@gmail.com",
     },
     {

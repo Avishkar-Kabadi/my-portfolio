@@ -1,39 +1,30 @@
-import { Code2, ShoppingCart, Globe, Smartphone } from "lucide-react"
+import { Globe, ShoppingCart, Smartphone } from "lucide-react"
 
 export default function Work() {
   const projects = [
     {
-      title: "Quality App for Suhana",
-      organization: "The Data Tech Labs",
-      description:
-        "Currently working on Quality app development using Power Platform ecosystem including Power Apps, Power Automate, and SharePoint list integration for client Suhana.",
-      duration: "Present",
-      icon: <Code2 className="w-8 h-8 text-blue-600" />,
-      tech: ["Power Apps", "Power Automate", "SharePoint"],
-    },
-    {
-      title: "E-Commerce App - TMT Store",
+      title: "Supply Chain Management System",
       organization: "Freelance Project",
       description:
-        "Developing a full-featured e-commerce application for TMT Group using React.js, implementing modern UI components and state management.",
+        "Developed a complete MERN-based Supply Chain Management System for TMT Group with features including inventory control, order lifecycle tracking, logistics coordination, and multi-role access (Admin, Warehouse Manager, Staff, Delivery Boy, Customer).",
       duration: "2024",
       icon: <ShoppingCart className="w-8 h-8 text-blue-600" />,
-      tech: ["React.js", "Redux", "Tailwind CSS"],
+      tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
     },
     {
       title: "TMT Store Website",
       organization: "Freelance Project",
       description:
-        "Created a responsive website for TMT Store showcasing their products and services using React.js and modern web technologies.",
+        "Built a responsive product showcase website for TMT Store using React.js and Tailwind CSS, optimized for performance and SEO.",
       duration: "2024",
       icon: <Globe className="w-8 h-8 text-blue-600" />,
-      tech: ["React.js", "CSS3", "JavaScript"],
+      tech: ["React.js", "Tailwind CSS", "JavaScript"],
     },
     {
       title: "TMT Store Mobile App",
       organization: "Freelance Project",
       description:
-        "Developing a cross-platform mobile application using Ionic React framework to provide customers with a seamless shopping experience.",
+        "Developed a cross-platform mobile app using Ionic React for TMT Store to allow customers to browse and purchase products seamlessly.",
       duration: "2024",
       icon: <Smartphone className="w-8 h-8 text-blue-600" />,
       tech: ["Ionic React", "React.js", "Mobile UI/UX"],
@@ -69,4 +60,3 @@ export default function Work() {
     </section>
   )
 }
-

@@ -4,18 +4,17 @@ import { Briefcase } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      title: "Full Stack Software Engineer",
-      company: "The Data Tech Labs",
-      duration: "Oct 2024 - Present",
-      description: "Currently working on a Quality App for Suhana using Power Platform, Power Apps, Power Automate, and SharePoint Lists. The app empowers Super-Admins to manage users, Admins to define inspection parameters, Supervisors to monitor alerts, and Inspectors to perform inspections and submit records. It integrates dynamic forms, real-time alerts, and automation to ensure consistent quality control throughout the inspection process.",
-    },
-    {
       title: "Freelance Full Stack Developer",
       company: "Self-employed",
       duration: "2024 - Present",
-      description: "Currently working on the E-Commerce Platform for TMT-Group, where I manage inventory, products, and orders. The platform supports multiple roles such as Admin, Warehouse Manager, Staff, Delivery Boys, and Customers. I have developed a customer-facing website for product browsing, registration, and purchasing, alongside a mobile app built using Ionic React for the customer role. All orders are efficiently managed through the E-Commerce platform.",
+      description: "Working as a freelance Full Stack Developer using the MERN stack (MongoDB, Express.js, React.js, Node.js). Developed an E-Commerce Platform for TMT-Group to manage inventory, products, and orders. The system supports multiple user roles (Admin, Warehouse Manager, Staff, Delivery Boys, Customers). Built both a responsive customer-facing website and a mobile app using Ionic React for product browsing, registration, and purchasing. The complete order lifecycle is managed efficiently within the platform.",
     },
-    // Add any other internships or experiences from your CV here
+    {
+      title: "Software Engineer Trainee",
+      company: "Azurebird Cloud Solutions LLP",
+      duration: "Jan 2024 - Apr 2024",
+      description:"Built a small-scale Expense Management System using the MERN stack as a learning project. Implemented user authentication (login/registration), expense tracking, category-wise filtering, and data visualization. Handled frontend with React, backend with Node.js and Express, and stored data in MongoDB.",
+    },
   ];
 
   return (
